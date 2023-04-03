@@ -1,41 +1,37 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "Arroyo",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/arroyo.svg",
+    "light": "/logo/arroyo.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#4985A3",
+    "light": "#6CC4FA",
+    "dark": "#263440",
+    "anchors": { "from": "#6DE8D3", "to": "#6CC4FA" }
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Log In",
+      "url": "https://accounts.arroyo.dev/sign-in?redirect_url=https%3A%2F%2Fconsole.arroyo.dev%2F"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "https://www.arroyo.dev/"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/ArroyoSystems/arroyo"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://www.arroyo.dev/blog"
     }
   ],
   "navigation": [
@@ -58,8 +54,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/ArroyoSystems",
+    "github": "https://github.com/ArroyoSystems/arroyo",
+    "website": "https://www.arroyo.dev/"
   }
 }
